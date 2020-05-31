@@ -2,7 +2,7 @@ library(magrittr); library(ggplot2)
 
 source("R/utils.R")
 
-x <- "Francisco"
+x <- "Mario"
 
 df <- get_freq_nome(x)
 
@@ -14,3 +14,4 @@ df %>%
   xlab("Década de nascimento") +
   ylab("Pessoas") +
   ggsave("figures/nomes-decada.pdf")
+  pdf("figures/nomes-decada.pdf")
