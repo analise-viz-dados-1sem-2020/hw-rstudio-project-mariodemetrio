@@ -14,4 +14,3 @@ df %>%
   xlab("Década de nascimento") +
   ylab("Pessoas") +
   ggsave("figures/nomes-decada.pdf")
-  pdf("figures/nomes-decada.pdf")
